@@ -18,7 +18,7 @@
   int outputPin=9;
   void setup() {
     lcd.begin(16, 2);
-    lcd.print("Distance:");
+    lcd.print("Distance is: ");
 
     Serial.begin(9600);
     pinMode(inputPin, INPUT);
